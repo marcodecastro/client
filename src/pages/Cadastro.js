@@ -30,7 +30,7 @@ function Cadastro() {
 
     try {
       // Enviar os dados ao backend
-      const response = await fetch('https://client-dun-mu.vercel.app/cadastro', {
+      const response = await fetch('https://client-dun-mu.vercel.app/api/cadastro', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
