@@ -17,7 +17,7 @@ const Membro = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch('https://client-dun-mu.vercel.app/api/forms', {
+      const response = await fetch('https://noite.onrender.com/api/forms', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
