@@ -30,7 +30,7 @@ function Cadastro() {
 
     try {
       // Enviar os dados ao backend
-      const response = await fetch('http://localhost:5005/cadastro', {
+      const response = await fetch('https://client-dun-mu.vercel.app/cadastro', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -55,7 +55,7 @@ function Cadastro() {
       setCadastroSucesso(true);
 
       // Redireciona para a página home
-      navigate('/Home'); 
+      navigate('/Login'); 
 
       // Limpa os campos do formulário
       setNome('');
